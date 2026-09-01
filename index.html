@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Engagement of Saravana & Muthu | 13.09.2026</title>
+  <meta name="description" content="We cordially invite you to celebrate the Engagement Ceremony of Saravana and Muthu on September 13, 2026 at Sathya Arangam, Vadipatti.">
+  <meta name="theme-color" content="#F9F3EB">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Saravana & Muthu Engagement Invitation">
+  <meta property="og:description" content="A sacred union. A timeless promise. An eternal journey. September 13, 2026.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Grenze+Gotisch:wght@100..900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Lenis Smooth Scroll CDN -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            weddingBg: '#F9F3EB',
+            weddingText: '#2F2A26',
+            weddingMuted: '#6C655F',
+            goldAccent: '#C8A96A',
+            goldLight: '#E8D5B5',
+            goldDark: '#9A7B3E',
+            glassBg: 'rgba(255, 255, 255, 0.12)',
+            glassDarkBg: 'rgba(24, 20, 16, 0.55)',
+            glassBorder: 'rgba(255, 255, 255, 0.22)',
+            goldBorder: 'rgba(200, 169, 106, 0.45)'
+          },
+          fontFamily: {
+            germania: ['"Germania One"', 'system-ui'],
+            gotisch: ['"Grenze Gotisch"', 'serif'],
+            names: ['"Germania One"', '"Grenze Gotisch"', 'Cormorant Garamond', 'serif'],
+            title: ['"Germania One"', '"Grenze Gotisch"', 'Playfair Display', 'serif'],
+            script: ['Great Vibes', 'cursive'],
+            body: ['Inter', 'sans-serif']
+          },
+          animation: {
+            'shimmer': 'shimmer 4s infinite linear',
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+          },
+          keyframes: {
+            shimmer: {
+              '0%': { backgroundPosition: '-200% 0' },
+              '100%': { backgroundPosition: '200% 0' }
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f0c0a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C8A96A;
+      border-radius: 3px;
+    }
+
+    /* Selection */
+    ::selection {
+      background: #C8A96A;
+      color: #0f0c0a;
+    }
+
+    /* Germania One & Grenze Gotisch Font Utilities */
+    .germania-one-regular, .font-germania, .font-names {
+      font-family: "Germania One", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .grenze-gotisch, .font-gotisch {
+      font-family: "Grenze Gotisch", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+    /* High Contrast Gold Gradient Text Effect */
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFFFFF 0%, #FFE9B8 28%, #D4B475 60%, #FFFFFF 90%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      padding-bottom: 0.18em;
+      padding-top: 0.05em;
+      margin-bottom: -0.1em;
+      filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 25px rgba(212, 180, 117, 0.4));
+    }
+
+    .text-contrast-shadow {
+      text-shadow: 0 3px 12px rgba(0, 0, 0, 0.95), 0 0 24px rgba(0, 0, 0, 0.9);
+    }
+
+    .gold-gradient-border {
+      border-image: linear-gradient(to right, rgba(200, 169, 106, 0.1), rgba(200, 169, 106, 0.8), rgba(200, 169, 106, 0.1)) 1;
+    }
+
+    /* True Luminous Glassmorphism Styles */
+    .glass-card {
+      background: linear-gradient(135deg, rgba(28, 22, 16, 0.75) 0%, rgba(18, 14, 10, 0.85) 100%);
+      backdrop-filter: blur(28px) saturate(150%);
+      -webkit-backdrop-filter: blur(28px) saturate(150%);
+      border: 1px solid rgba(200, 169, 106, 0.45);
+      border-top: 1px solid rgba(255, 255, 255, 0.35);
+      box-shadow: 
+        0 30px 60px rgba(0, 0, 0, 0.65), 
+        inset 0 1px 2px rgba(255, 255, 255, 0.3), 
+        0 0 45px rgba(200, 169, 106, 0.2);
+    }
+
+    .glass-card:hover {
+      border-color: rgba(200, 169, 106, 0.75);
+      box-shadow: 
+        0 35px 70px rgba(0, 0, 0, 0.75), 
+        0 0 50px rgba(200, 169, 106, 0.35);
+    }
+
+    .glass-pill {
+      background: rgba(20, 16, 12, 0.65);
+      backdrop-filter: blur(20px) saturate(130%);
+      -webkit-backdrop-filter: blur(20px) saturate(130%);
+      border: 1px solid rgba(200, 169, 106, 0.4);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .glass-input {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-top: 1px solid rgba(255, 255, 255, 0.35);
+      color: #F9F3EB;
+      transition: all 0.3s ease;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .glass-input:focus {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: #C8A96A;
+      box-shadow: 0 0 20px rgba(200, 169, 106, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.4);
+      outline: none;
+    }
+
+    /* Vignette Radial Overlay with Blur Depth */
+    .vignette-overlay {
+      background: radial-gradient(circle at center, rgba(12, 9, 6, 0.55) 0%, rgba(8, 6, 4, 0.82) 70%, rgba(4, 3, 2, 0.95) 100%);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+    /* Section Wrapper */
+    .content-section {
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  </style>
+</head>
+<body class="bg-[#0f0c0a] text-[#F9F3EB] font-body selection:bg-goldAccent selection:text-[#0f0c0a] overflow-x-hidden overflow-hidden relative min-h-screen">
+
+  <!-- ==================== LUXURY SCRATCH CARD & TAP TO OPEN OVERLAY ==================== -->
+  <div id="scratchOverlay" class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-gradient-to-b from-[#1a140e] via-[#0f0c0a] to-[#050403] text-center px-4 py-8 transition-all duration-1000 select-none">
+    
+    <!-- Floating Luxury Ambient Shimmer Glow -->
+    <div class="absolute w-[500px] h-[500px] bg-goldAccent/15 rounded-full blur-[120px] pointer-events-none animate-pulse-slow"></div>
+
+    <div class="relative z-10 max-w-lg w-full space-y-6 sm:space-y-8 flex flex-col items-center">
+      
+      <!-- Header Title -->
+      <div class="space-y-2">
+        <h2 class="font-names text-3xl sm:text-5xl text-white tracking-wide drop-shadow-lg">
+          Saravana & Muthu
+        </h2>
+        <p class="text-xs sm:text-sm text-goldLight/80 tracking-widest uppercase">
+          Scratch Card or Tap Below to Reveal
+        </p>
+      </div>
+
+      <!-- Scratch Card Box Container -->
+      <div class="relative w-[300px] sm:w-[360px] h-[200px] sm:h-[220px] rounded-2xl overflow-hidden glass-card border-2 border-goldAccent/70 shadow-[0_0_50px_rgba(200,169,106,0.35)] group cursor-grab active:cursor-grabbing">
+        
+        <!-- REVEALED CARD UNDERNEATH -->
+        <div id="revealedContent" class="absolute inset-0 p-6 flex flex-col items-center justify-center space-y-3 bg-gradient-to-br from-[#241c14] via-[#16110c] to-[#0c0907] text-center">
+          <div class="w-12 h-12 rounded-full bg-goldAccent/20 border border-goldAccent/50 flex items-center justify-center text-goldAccent shadow-inner">
+            <i data-lucide="heart" class="w-6 h-6 fill-goldAccent/30"></i>
+          </div>
+          <div>
+            <span class="text-[10px] uppercase tracking-[0.35em] text-goldAccent font-semibold">The Engagement of</span>
+            <h3 class="font-names text-2xl sm:text-3xl gold-gradient-text font-bold leading-tight">
+              Saravana & Muthu
+            </h3>
+          </div>
+          <p class="font-title text-xs tracking-[0.25em] text-white/90">
+            SUNDAY • 13 SEP 2026
+          </p>
+        </div>
+
+        <!-- HTML5 SCRATCH CANVAS OVERLAY -->
+        <canvas id="scratchCanvas" class="absolute inset-0 w-full h-full z-10 transition-opacity duration-700"></canvas>
+      </div>
+
+      <!-- Instruction & Tap to Open Button -->
+      <div class="space-y-4 w-full max-w-xs">
+        <p class="text-[11px] text-goldLight/70 uppercase tracking-widest flex items-center justify-center gap-2 font-medium">
+          <i data-lucide="hand" class="w-3.5 h-3.5 text-goldAccent animate-bounce"></i>
+          <span>Scratch glitter surface with finger / mouse</span>
+        </p>
+        
+        <button 
+          id="tapToOpenBtn"
+          onclick="revealInvitation()"
+          class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-goldAccent via-goldLight to-goldAccent text-[#0f0c0a] font-bold text-xs uppercase tracking-[0.25em] shadow-[0_0_25px_rgba(200,169,106,0.5)] hover:shadow-[0_0_40px_rgba(200,169,106,0.85)] hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 group cursor-pointer"
+        >
+          <span>Tap to Open Invitation</span>
+          <i data-lucide="sparkles" class="w-4 h-4 group-hover:rotate-12 transition-transform"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FIXED HERO BACKGROUND VIDEO -->
+  <video 
+    id="heroVideo"
+    autoplay 
+    muted 
+    loop 
+    playsinline 
+    preload="auto"
+    class="fixed top-0 left-0 w-full h-full object-cover -z-30 pointer-events-none transition-opacity duration-1000"
+    aria-hidden="true"
+  >
+    <source src="assets/background.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <!-- FIXED VIGNETTE OVERLAY -->
+  <div class="fixed top-0 left-0 w-full h-full vignette-overlay -z-20 pointer-events-none opacity-80"></div>
+
+  <!-- FLOATING GOLDEN DUST DYNAMIC CANVAS -->
+  <canvas id="dustCanvas" class="fixed top-0 left-0 w-full h-full -z-10 pointer-events-none opacity-60"></canvas>
+
+  <!-- TOP BAR: AUDIO TOGGLE & BRAND METADATA -->
+  <header class="fixed top-0 left-0 w-full z-50 px-6 py-6 md:px-12 flex justify-end items-center pointer-events-auto">
+    <button 
+      id="audioToggleBtn"
+      class="px-4 py-2 rounded-full glass-pill border border-goldAccent/40 hover:border-goldAccent text-goldAccent text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer shadow-lg"
+    >
+      <i data-lucide="music" class="w-3.5 h-3.5"></i>
+      <span id="audioStatusText">Sound Off</span>
+    </button>
+  </header>
+
+  <!-- AUDIO ELEMENT FOR LUXURY AMBIENCE -->
+  <audio id="bgAudio" loop preload="none">
+    <source src="https://assets.mixkit.co/music/preview/mixkit-loving-you-117.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- MAIN SCROLL CONTAINER -->
+  <main id="smoothScrollWrapper" class="relative w-full">
+
+    <!-- ==================== SECTION 1: HERO & NAMES ==================== -->
+    <section id="section1" class="content-section px-4 sm:px-8">
+      <div class="max-w-4xl mx-auto text-center z-10 w-full space-y-8 md:space-y-10">
+        
+        <!-- Small Heading -->
+        <div class="sec1-anim opacity-0 translate-y-10 space-y-3">
+          <p class="text-goldAccent font-body text-xs sm:text-sm md:text-base tracking-[0.35em] uppercase font-semibold text-contrast-shadow">
+            With the Blessings of Our Families
+          </p>
+          <p class="text-white/90 font-body text-[11px] sm:text-xs tracking-[0.3em] uppercase text-contrast-shadow font-medium">
+            We Invite You to Celebrate the Engagement of
+          </p>
+        </div>
+
+        <!-- Large Names (Floating directly on video) -->
+        <div class="sec1-anim opacity-0 translate-y-10 py-2">
+          <h1 class="font-names text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-tight sm:leading-tight font-normal">
+            <span class="inline-block gold-gradient-text">Saravana</span>
+            <span class="block font-script text-3xl sm:text-5xl md:text-6xl text-goldAccent my-2 md:my-4 font-thin italic text-contrast-shadow">&</span>
+            <span class="inline-block gold-gradient-text">Muthu</span>
+          </h1>
+        </div>
+
+        <!-- Elegant Gold Divider -->
+        <div class="sec1-anim opacity-0 translate-y-10 flex items-center justify-center gap-4 py-2">
+          <div class="w-16 sm:w-28 h-[1px] bg-gradient-to-r from-transparent via-goldAccent to-transparent"></div>
+          <div class="w-2.5 h-2.5 rotate-45 border border-goldAccent bg-goldAccent/30"></div>
+          <div class="w-16 sm:w-28 h-[1px] bg-gradient-to-r from-transparent via-goldAccent to-transparent"></div>
+        </div>
+
+        <!-- Date Preview & Scroll Indicator -->
+        <div class="sec1-anim opacity-0 translate-y-10 space-y-6">
+          <p class="font-title text-base sm:text-xl md:text-2xl tracking-[0.25em] gold-gradient-text font-medium">
+            SUNDAY • SEPTEMBER 13, 2026
+          </p>
+          
+          <div class="pt-6 flex flex-col items-center gap-2 text-goldAccent hover:text-white transition-colors text-contrast-shadow">
+            <span class="text-[10px] uppercase tracking-[0.3em] font-medium">Scroll to Explore</span>
+            <div class="w-5 h-8 border border-goldAccent rounded-full flex justify-center p-1 backdrop-blur-sm shadow-lg">
+              <div class="w-1 h-2 bg-goldAccent rounded-full animate-bounce"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2: SACRED UNION QUOTE ==================== -->
+    <section id="section2" class="content-section px-4 sm:px-8">
+      <div class="max-w-3xl mx-auto text-center z-10 w-full space-y-8 sm:space-y-10">
+        
+        <div class="sec2-anim opacity-0 translate-y-10">
+          <span class="text-goldAccent font-body text-xs sm:text-sm tracking-[0.4em] uppercase font-semibold text-contrast-shadow">
+            — A Sacred Beginning —
+          </span>
+        </div>
+
+        <blockquote class="sec2-anim opacity-0 translate-y-10 font-names text-3xl sm:text-5xl md:text-6xl text-white font-light leading-relaxed sm:leading-tight tracking-wide italic text-contrast-shadow">
+          “A sacred union.<br class="hidden sm:inline">
+          A timeless promise.<br class="hidden sm:inline">
+          An eternal journey.”
+        </blockquote>
+
+        <!-- Elegant Ornamental SVG Line-Art Divider -->
+        <div class="sec2-anim opacity-0 translate-y-10 flex justify-center py-2">
+          <svg class="w-48 sm:w-64 h-10 text-goldAccent drop-shadow-lg" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 20 H80 M120 20 H200" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2"/>
+            <circle cx="100" cy="20" r="14" stroke="currentColor" stroke-width="1" fill="none"/>
+            <circle cx="100" cy="20" r="8" stroke="currentColor" stroke-width="0.8" fill="none"/>
+            <path d="M100 6 L100 34 M86 20 L114 20" stroke="currentColor" stroke-width="0.8"/>
+            <polygon points="100,2 103,8 97,8" fill="currentColor"/>
+            <polygon points="100,38 103,32 97,32" fill="currentColor"/>
+          </svg>
+        </div>
+
+        <div class="sec2-anim opacity-0 translate-y-10 max-w-xl mx-auto">
+          <p class="font-body text-xs sm:text-sm md:text-base text-white/95 leading-relaxed tracking-wider font-light text-contrast-shadow">
+            Together with our beloved families, we seek your presence, love, and divine blessings as Saravana & Muthu exchange rings and begin their journey of togetherness.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: EVENT INFORMATION & MAPS ==================== -->
+    <section id="section3" class="content-section px-4 sm:px-6 md:px-8">
+      <div class="max-w-5xl mx-auto z-10 w-full space-y-10 md:space-y-12">
+        
+        <div class="sec3-anim opacity-0 translate-y-10 text-center space-y-3">
+          <span class="text-goldAccent font-body text-xs sm:text-sm tracking-[0.35em] uppercase font-medium drop-shadow-md">
+            Event Details
+          </span>
+          <h2 class="font-names text-3xl sm:text-4xl lg:text-5xl text-[#F9F3EB] tracking-wide drop-shadow-2xl">
+            Engagement Ceremony & Celebration
+          </h2>
+        </div>
+
+        <!-- Sleek Transparent Floating 3-Column Layout -->
+        <div class="sec3-anim opacity-0 translate-y-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">
+          
+          <!-- Column 1: Date & Add to Calendar -->
+          <div class="space-y-6 text-center flex flex-col items-center justify-between p-6 rounded-2xl glass-card transition-all duration-300">
+            <div class="space-y-3 flex flex-col items-center">
+              <div class="w-14 h-14 rounded-2xl glass-pill flex items-center justify-center text-goldAccent">
+                <i data-lucide="calendar" class="w-6 h-6"></i>
+              </div>
+              <span class="text-xs uppercase tracking-[0.25em] text-goldAccent font-medium text-contrast-shadow">Date</span>
+              <p class="font-title text-2xl text-white font-normal tracking-wider text-contrast-shadow">
+                SUNDAY
+              </p>
+              <p class="font-names text-3xl sm:text-4xl gold-gradient-text font-semibold">
+                13 SEP 2026
+              </p>
+            </div>
+
+            <!-- Add to Calendar Action -->
+            <div class="w-full">
+              <button 
+                id="addToCalendarBtn"
+                onclick="openCalendarModal()"
+                class="w-full py-3 px-4 rounded-xl border border-goldAccent/50 hover:border-goldAccent bg-goldAccent/10 hover:bg-goldAccent hover:text-[#0f0c0a] text-xs tracking-wider uppercase text-white font-medium flex items-center justify-center gap-2 transition-all group cursor-pointer shadow-md"
+              >
+                <i data-lucide="calendar-plus" class="w-4 h-4 text-goldAccent group-hover:text-[#0f0c0a] group-hover:scale-110 transition-transform"></i>
+                <span>Add to Calendar</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Column 2: Time & Muhurtham Details -->
+          <div class="space-y-6 text-center flex flex-col items-center justify-between p-6 rounded-2xl glass-card transition-all duration-300">
+            <div class="space-y-3 flex flex-col items-center">
+              <div class="w-14 h-14 rounded-2xl glass-pill flex items-center justify-center text-goldAccent">
+                <i data-lucide="clock" class="w-6 h-6"></i>
+              </div>
+              <span class="text-xs uppercase tracking-[0.25em] text-goldAccent font-medium text-contrast-shadow">Timing</span>
+              <p class="font-title text-xl text-white font-medium tracking-widest uppercase text-contrast-shadow">
+                MUHURTHAM
+              </p>
+              <p class="font-names text-2xl sm:text-3xl gold-gradient-text font-medium tracking-wide">
+                10:30 AM – 11:50 AM
+              </p>
+            </div>
+
+            <div class="text-xs text-white/90 tracking-wider text-contrast-shadow">
+              Lunch served following Engagement ceremony
+            </div>
+          </div>
+
+          <!-- Column 3: Venue & Map Links -->
+          <div class="space-y-6 text-center flex flex-col items-center justify-between p-6 rounded-2xl glass-card transition-all duration-300">
+            <div class="space-y-3 flex flex-col items-center">
+              <div class="w-14 h-14 rounded-2xl glass-pill flex items-center justify-center text-goldAccent">
+                <i data-lucide="map-pin" class="w-6 h-6"></i>
+              </div>
+              <span class="text-xs uppercase tracking-[0.25em] text-goldAccent font-medium text-contrast-shadow">Venue</span>
+              <p class="font-names text-2xl sm:text-3xl text-white font-semibold tracking-wide text-contrast-shadow">
+                Sathya Arangam
+              </p>
+              <p class="font-body text-sm text-white/90 text-contrast-shadow">
+                Bus Stop - Taluka Office, Vadipatti
+              </p>
+            </div>
+
+            <!-- Map Directions Action -->
+            <div class="w-full">
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Sathya+Arangam+Vadipatti+Taluka+office"
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-3 px-4 rounded-xl bg-goldAccent hover:bg-goldLight text-[#0f0c0a] text-xs tracking-wider uppercase font-semibold flex items-center justify-center gap-2 transition-all duration-300 group cursor-pointer shadow-lg"
+              >
+                <i data-lucide="navigation" class="w-4 h-4 text-[#0f0c0a] transition-colors"></i>
+                <span>Open in Google Maps</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Direct Clickable Venue Google Maps Link Footer -->
+        <div class="sec3-anim opacity-0 translate-y-8 text-center pt-2">
+          <a 
+            href="https://www.google.com/maps/search/?api=1&query=Sathya+Arangam+Vadipatti+Taluka+office" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-2 text-xs tracking-widest text-goldAccent hover:text-white underline underline-offset-4 transition-colors"
+          >
+            <span>Click here for full directions to Sathya Arangam, Vadipatti</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 4: CONTACT FAMILY HOSTS ==================== -->
+    <section id="section4" class="content-section px-4 sm:px-6 md:px-8">
+      <div class="max-w-4xl mx-auto z-10 w-full space-y-8">
+        
+        <div class="sec4-anim opacity-0 translate-y-10 glass-card rounded-[32px] p-6 sm:p-10 md:p-12 flex flex-col justify-between space-y-8 shadow-2xl">
+          
+          <div class="text-center space-y-3">
+            <span class="text-goldAccent font-body text-xs sm:text-sm tracking-[0.35em] uppercase font-medium">
+              Need Assistance or Directions?
+            </span>
+            <h2 class="font-names text-3xl sm:text-5xl text-[#F9F3EB] tracking-wide">
+              Contact Family Hosts
+            </h2>
+            <p class="text-xs sm:text-sm text-goldLight/70 tracking-wider font-light max-w-md mx-auto">
+              Please feel free to call directly for travel, venue location, or event assistance
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+            
+            <!-- Groom Side Contact Number Card -->
+            <div class="p-6 rounded-2xl glass-pill flex flex-col justify-between space-y-4 hover:border-goldAccent/60 transition-all duration-300 shadow-lg">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-11 h-11 rounded-xl bg-goldAccent/15 border border-goldAccent/40 flex items-center justify-center text-goldAccent">
+                      <i data-lucide="user" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-names text-2xl text-white font-medium">Groom's Family</h3>
+                      <p class="text-xs text-goldAccent/90">Saravana's Family</p>
+                    </div>
+                  </div>
+                  <span class="px-3 py-1 rounded-full text-[10px] uppercase tracking-wider bg-goldAccent/20 text-goldAccent border border-goldAccent/30 font-medium">Groom Side</span>
+                </div>
+
+                <p class="text-xs text-goldLight/80 leading-relaxed">
+                  For queries on venue arrival, route, or Groom side arrangements.
+                </p>
+              </div>
+
+              <a 
+                href="tel:+919865379069" 
+                class="w-full py-3.5 px-4 rounded-xl bg-goldAccent/15 hover:bg-goldAccent text-goldAccent hover:text-[#0f0c0a] border border-goldAccent/50 text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2.5 transition-all duration-300 shadow-md group cursor-pointer"
+              >
+                <i data-lucide="phone" class="w-4 h-4 group-hover:scale-110 transition-transform"></i>
+                <span>Call Groom Side • +91 98653 79069</span>
+              </a>
+            </div>
+
+            <!-- Bride Side Contact Number Card -->
+            <div class="p-6 rounded-2xl glass-pill flex flex-col justify-between space-y-4 hover:border-goldAccent/60 transition-all duration-300 shadow-lg">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-11 h-11 rounded-xl bg-goldAccent/15 border border-goldAccent/40 flex items-center justify-center text-goldAccent">
+                      <i data-lucide="heart" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-names text-2xl text-white font-medium">Bride's Family</h3>
+                      <p class="text-xs text-goldAccent/90">Muthu's Family</p>
+                    </div>
+                  </div>
+                  <span class="px-3 py-1 rounded-full text-[10px] uppercase tracking-wider bg-goldAccent/20 text-goldAccent border border-goldAccent/30 font-medium">Bride Side</span>
+                </div>
+
+                <p class="text-xs text-goldLight/80 leading-relaxed">
+                  For queries on guest reception, location details, or Bride side arrangements.
+                </p>
+              </div>
+
+              <a 
+                href="tel:+919364287005" 
+                class="w-full py-3.5 px-4 rounded-xl bg-goldAccent/15 hover:bg-goldAccent text-goldAccent hover:text-[#0f0c0a] border border-goldAccent/50 text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2.5 transition-all duration-300 shadow-md group cursor-pointer"
+              >
+                <i data-lucide="phone" class="w-4 h-4 group-hover:scale-110 transition-transform"></i>
+                <span>Call Bride Side • +91 93642 87005</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Footer Credits -->
+        <footer class="sec4-anim opacity-0 translate-y-8 text-center pt-8 text-[11px] text-weddingMuted/70 tracking-widest uppercase">
+          Crafted with Love for Saravana & Muthu • 2026
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CALENDAR MODAL (ADD TO CALENDAR DIRECT LINKS) -->
+  <div id="calendarModal" class="fixed inset-0 z-50 flex items-center justify-center px-4 bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="glass-card rounded-2xl p-6 sm:p-8 max-w-md w-full space-y-6 relative border border-goldAccent/40 shadow-2xl">
+      <button onclick="closeCalendarModal()" class="absolute top-4 right-4 text-weddingMuted hover:text-goldAccent cursor-pointer">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="text-center space-y-2">
+        <div class="w-10 h-10 rounded-full bg-goldAccent/10 border border-goldAccent/30 flex items-center justify-center text-goldAccent mx-auto">
+          <i data-lucide="calendar" class="w-5 h-5"></i>
+        </div>
+        <h3 class="font-names text-2xl text-goldAccent">Add to Your Calendar</h3>
+        <p class="text-xs text-weddingMuted">Saravana & Muthu Engagement<br>September 13, 2026</p>
+      </div>
+
+      <div class="space-y-3">
+        <!-- Google Calendar -->
+        <a 
+          href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Engagement+of+Saravana+%26+Muthu&dates=20260913T050000Z/20260913T062000Z&details=Engagement+Muhurtham+10%3A30+AM+-+11%3A50+AM+at+Sathya+Arangam%2C+Vadipatti&location=Sathya+Arangam%2C+Bus+stop+-+Taluka+office%2C+Vadipatti" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full py-3 px-4 rounded-xl glass-input hover:border-goldAccent text-xs uppercase tracking-wider text-goldLight flex items-center justify-between group cursor-pointer"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="globe" class="w-4 h-4 text-goldAccent"></i>
+            <span>Google Calendar</span>
+          </div>
+          <i data-lucide="external-link" class="w-4 h-4 text-weddingMuted group-hover:text-goldAccent"></i>
+        </a>
+
+        <!-- iCal / Outlook Download (.ics) -->
+        <button 
+          onclick="downloadICSFile()"
+          class="w-full py-3 px-4 rounded-xl glass-input hover:border-goldAccent text-xs uppercase tracking-wider text-goldLight flex items-center justify-between group cursor-pointer text-left"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="download" class="w-4 h-4 text-goldAccent"></i>
+            <span>Apple / Outlook Calendar (.ics)</span>
+          </div>
+          <i data-lucide="arrow-down" class="w-4 h-4 text-weddingMuted group-hover:text-goldAccent"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC & ANIMATION ENGINE -->
+  <script src="config.js"></script>
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    /* ==========================================================================
+       0. SCRATCH CARD ENGINE & REVEAL OVERLAY LOGIC
+       ========================================================================== */
+    const scratchCanvas = document.getElementById('scratchCanvas');
+    let isInvitationRevealed = false;
+
+    if (scratchCanvas) {
+      const sCtx = scratchCanvas.getContext('2d');
+      let isScratching = false;
+
+      function initScratchCanvas() {
+        if (isInvitationRevealed) return;
+        scratchCanvas.width = scratchCanvas.offsetWidth || 340;
+        scratchCanvas.height = scratchCanvas.offsetHeight || 210;
+
+        // Create Luxury Gold Glitter Metallic Coating
+        const grad = sCtx.createLinearGradient(0, 0, scratchCanvas.width, scratchCanvas.height);
+        grad.addColorStop(0, '#D4B475');
+        grad.addColorStop(0.25, '#FFE9B8');
+        grad.addColorStop(0.5, '#9A7B3E');
+        grad.addColorStop(0.75, '#E8D5B5');
+        grad.addColorStop(1, '#C8A96A');
+        sCtx.fillStyle = grad;
+        sCtx.fillRect(0, 0, scratchCanvas.width, scratchCanvas.height);
+
+        // Add Gold Dust Speckles Pattern
+        for (let i = 0; i < 450; i++) {
+          sCtx.fillStyle = Math.random() > 0.5 ? 'rgba(255, 255, 255, 0.35)' : 'rgba(80, 55, 15, 0.25)';
+          sCtx.fillRect(
+            Math.random() * scratchCanvas.width,
+            Math.random() * scratchCanvas.height,
+            Math.random() * 3 + 1,
+            Math.random() * 3 + 1
+          );
+        }
+
+        // Draw Scratch Text Guidelines
+        sCtx.font = 'bold 15px "Inter", sans-serif';
+        sCtx.fillStyle = '#2A1F10';
+        sCtx.textAlign = 'center';
+        sCtx.textBaseline = 'middle';
+        sCtx.shadowColor = 'rgba(255, 255, 255, 0.5)';
+        sCtx.shadowBlur = 4;
+        sCtx.fillText('✨ SCRATCH HERE ✨', scratchCanvas.width / 2, scratchCanvas.height / 2 - 10);
+        sCtx.font = '11px "Inter", sans-serif';
+        sCtx.fillText('or tap button below', scratchCanvas.width / 2, scratchCanvas.height / 2 + 14);
+      }
+
+      function getScratchPos(e) {
+        const rect = scratchCanvas.getBoundingClientRect();
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        return {
+          x: clientX - rect.left,
+          y: clientY - rect.top
+        };
+      }
+
+      function scratch(e) {
+        if (!isScratching || isInvitationRevealed) return;
+        if (e.cancelable) e.preventDefault();
+        const pos = getScratchPos(e);
+        sCtx.globalCompositeOperation = 'destination-out';
+        sCtx.beginPath();
+        sCtx.arc(pos.x, pos.y, 28, 0, Math.PI * 2);
+        sCtx.fill();
+
+        checkScratchPercentage();
+      }
+
+      function checkScratchPercentage() {
+        if (isInvitationRevealed) return;
+        const imageData = sCtx.getImageData(0, 0, scratchCanvas.width, scratchCanvas.height);
+        const pixels = imageData.data;
+        let transparentCount = 0;
+
+        for (let i = 3; i < pixels.length; i += 24) {
+          if (pixels[i] === 0) transparentCount++;
+        }
+
+        const totalCheckPixels = pixels.length / 24;
+        const percentCleared = (transparentCount / totalCheckPixels) * 100;
+
+        if (percentCleared > 25) {
+          revealInvitation();
+        }
+      }
+
+      scratchCanvas.addEventListener('mousedown', (e) => { isScratching = true; scratch(e); });
+      scratchCanvas.addEventListener('mousemove', scratch);
+      window.addEventListener('mouseup', () => { isScratching = false; });
+
+      scratchCanvas.addEventListener('touchstart', (e) => { isScratching = true; scratch(e); }, { passive: false });
+      scratchCanvas.addEventListener('touchmove', scratch, { passive: false });
+      window.addEventListener('touchend', () => { isScratching = false; });
+
+      setTimeout(initScratchCanvas, 150);
+      window.addEventListener('resize', initScratchCanvas);
+    }
+
+    function revealInvitation() {
+      if (isInvitationRevealed) return;
+      isInvitationRevealed = true;
+
+      const overlay = document.getElementById('scratchOverlay');
+      const bgAudio = document.getElementById('bgAudio');
+      
+      if (bgAudio) {
+        bgAudio.play().then(() => {
+          isPlayingAudio = true;
+          const audioStatusText = document.getElementById('audioStatusText');
+          if (audioStatusText) audioStatusText.innerText = 'Sound On';
+          document.getElementById('audioToggleBtn')?.classList.add('border-goldAccent');
+        }).catch(err => console.log('Audio playback policy check:', err));
+      }
+
+      if (overlay) {
+        gsap.to(overlay, {
+          opacity: 0,
+          scale: 1.08,
+          duration: 0.9,
+          ease: 'power3.inOut',
+          onComplete: () => {
+            overlay.style.display = 'none';
+            document.body.classList.remove('overflow-hidden');
+            gsap.to('.sec1-anim', {
+              opacity: 1,
+              y: 0,
+              duration: 1.2,
+              ease: 'power3.out',
+              stagger: 0.15
+            });
+          }
+        });
+      }
+    }
+
+    /* ==========================================================================
+       1. LENIS FAST SMOOTH SCROLL INTEGRATION
+       ========================================================================== */
+    const lenis = new Lenis({
+      duration: 0.9,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      wheelMultiplier: 1.0,
+      touchMultiplier: 1.2,
+    });
+
+    lenis.on('scroll', ScrollTrigger.update);
+
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000);
+    });
+
+    gsap.ticker.lagSmoothing(0);
+
+    /* ==========================================================================
+       2. NATURAL SCROLL REVEAL ANIMATIONS (NO PINNING FOR FAST SMOOTH SCROLLING)
+       ========================================================================== */
+    gsap.registerPlugin(ScrollTrigger);
+
+    const sections = ['#section1', '#section2', '#section3', '#section4'];
+
+    sections.forEach((secId, i) => {
+      const section = document.querySelector(secId);
+      const animElements = section.querySelectorAll(`.sec${i + 1}-anim`);
+
+      gsap.fromTo(animElements, 
+        { opacity: 0, y: 50 },
+        { 
+          opacity: 1, 
+          y: 0, 
+          duration: 1.2, 
+          ease: 'power3.out', 
+          stagger: 0.15,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%',
+            toggleActions: 'play none none reverse'
+          }
+        }
+      );
+    });
+
+    // Initial load animation for Section 1 elements
+    window.addEventListener('DOMContentLoaded', () => {
+      gsap.to('.sec1-anim', {
+        opacity: 1,
+        y: 0,
+        duration: 1.4,
+        ease: 'power3.out',
+        stagger: 0.15,
+        delay: 0.2
+      });
+    });
+
+    /* ==========================================================================
+       3. FLOATING GOLDEN DUST CANVAS PARTICLES ENGINE
+       ========================================================================== */
+    const canvas = document.getElementById('dustCanvas');
+    const ctx = canvas.getContext('2d');
+
+    let particles = [];
+    const particleCount = 45;
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    class DustParticle {
+      constructor() {
+        this.reset();
+      }
+
+      reset() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 0.5;
+        this.speedX = (Math.random() - 0.5) * 0.3;
+        this.speedY = (Math.random() - 0.5) * 0.3 - 0.1;
+        this.opacity = Math.random() * 0.08 + 0.02;
+        this.pulse = Math.random() * 0.02;
+      }
+
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+
+        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
+          this.reset();
+        }
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(200, 169, 106, ${this.opacity})`;
+        ctx.shadowBlur = 8;
+        ctx.shadowColor = '#C8A96A';
+        ctx.fill();
+      }
+    }
+
+    function initDust() {
+      resizeCanvas();
+      particles = [];
+      for (let i = 0; i < particleCount; i++) {
+        particles.push(new DustParticle());
+      }
+    }
+
+    function animateDust() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p) => {
+        p.update();
+        p.draw();
+      });
+      requestAnimationFrame(animateDust);
+    }
+
+    window.addEventListener('resize', resizeCanvas);
+    initDust();
+    animateDust();
+
+    /* ==========================================================================
+       4. AUDIO AMBIENCE CONTROLLER & VIDEO MUTING
+       ========================================================================== */
+    const heroVideo = document.getElementById('heroVideo');
+    if (heroVideo) {
+      heroVideo.muted = true;
+      heroVideo.volume = 0;
+    }
+
+    const audioToggleBtn = document.getElementById('audioToggleBtn');
+    const audioStatusText = document.getElementById('audioStatusText');
+    const bgAudio = document.getElementById('bgAudio');
+    let isPlayingAudio = false;
+
+    if (audioToggleBtn) {
+      audioToggleBtn.addEventListener('click', () => {
+        if (!isPlayingAudio) {
+          bgAudio?.play().then(() => {
+            isPlayingAudio = true;
+            if (audioStatusText) audioStatusText.innerText = 'Sound On';
+            audioToggleBtn.classList.add('border-goldAccent');
+          }).catch(err => {
+            console.log('Audio playback blocked or unavailable:', err);
+          });
+        } else {
+          bgAudio?.pause();
+          isPlayingAudio = false;
+          if (audioStatusText) audioStatusText.innerText = 'Sound Off';
+          audioToggleBtn.classList.remove('border-goldAccent');
+        }
+      });
+    }
+
+    /* ==========================================================================
+       5. RSVP FORM SUBMISSION & GOOGLE APPS SCRIPT WEBHOOK INTEGRATION
+       ========================================================================== */
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('rsvpForm');
+      const successState = document.getElementById('successState');
+      const submitBtn = document.getElementById('submitBtn');
+
+      // Capture form data
+      const fullName = document.getElementById('fullName')?.value || '';
+      const attending = document.querySelector('input[name="attending"]:checked')?.value || 'Yes';
+      const guestsCount = document.getElementById('guestsCount')?.value || '1';
+      const blessingsMessage = document.getElementById('blessingsMessage')?.value || '';
+
+      const newBlessing = {
+        id: Date.now(),
+        fullName,
+        attending,
+        guestsCount,
+        blessingsMessage,
+        submittedAt: new Date().toLocaleString()
+      };
+
+      // 1. Save to LocalStorage
+      try {
+        const existingBlessings = JSON.parse(localStorage.getItem('wedding_blessings') || '[]');
+        existingBlessings.push(newBlessing);
+        localStorage.setItem('wedding_blessings', JSON.stringify(existingBlessings));
+        console.log('Saved Blessing locally:', newBlessing);
+      } catch (err) {
+        console.error('LocalStorage error:', err);
+      }
+
+      // 2. Send to Google Apps Script Webhook (Non-blocking Fire & Forget)
+      const scriptUrl = window.GOOGLE_SCRIPT_URL || '';
+      if (scriptUrl && scriptUrl.trim() !== '') {
+        try {
+          fetch(scriptUrl, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify(newBlessing)
+          }).then(() => {
+            console.log('Posted blessing to Google Sheet Apps Script!');
+          }).catch(err => {
+            console.warn('Google Apps Script post error:', err);
+          });
+        } catch (fetchErr) {
+          console.warn('Fetch initialization warning:', fetchErr);
+        }
+      }
+
+      submitBtn.innerHTML = `<span>Sending...</span><i data-lucide="loader" class="w-4 h-4 animate-spin"></i>`;
+      lucide.createIcons();
+
+      setTimeout(() => {
+        gsap.to(form, {
+          opacity: 0,
+          y: -20,
+          duration: 0.5,
+          onComplete: () => {
+            form.classList.add('hidden');
+            successState.classList.remove('hidden');
+            gsap.fromTo(successState, 
+              { opacity: 0, scale: 0.9, y: 20 }, 
+              { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: 'back.out(1.7)' }
+            );
+          }
+        });
+      }, 1000);
+    }
+
+    /* ==========================================================================
+       6. ADD TO CALENDAR MODAL & ICS DOWNLOAD HANDLER
+       ========================================================================== */
+    function openCalendarModal() {
+      const modal = document.getElementById('calendarModal');
+      modal.classList.remove('pointer-events-none', 'opacity-0');
+      modal.classList.add('opacity-100');
+    }
+
+    function closeCalendarModal() {
+      const modal = document.getElementById('calendarModal');
+      modal.classList.remove('opacity-100');
+      modal.classList.add('pointer-events-none', 'opacity-0');
+    }
+
+    function downloadICSFile() {
+      const icsData = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Engagement Invitation//Saravana & Muthu//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:Engagement of Saravana & Muthu
+DESCRIPTION:Join us for the engagement ceremony of Saravana & Muthu.\\n\\nMuhurtham: 10:30 AM - 11:50 AM\\nVenue: Sathya Arangam, Bus Stop - Taluka Office, Vadipatti.
+LOCATION:Sathya Arangam, Bus Stop - Taluka Office, Vadipatti
+DTSTART:20260913T050000Z
+DTEND:20260913T062000Z
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:Engagement of Saravana & Muthu Tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR`;
+
+      const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8;' });
+      const link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.setAttribute('download', 'Saravana_Muthu_Engagement.ics');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      closeCalendarModal();
+    }
+
+    /* ==========================================================================
+       7. CUSTOM LUXURY GUESTS DROPDOWN HANDLER
+       ========================================================================== */
+    function toggleGuestsDropdown(e) {
+      e.stopPropagation();
+      const menu = document.getElementById('guestsDropdownMenu');
+      const chevron = document.getElementById('guestsChevron');
+      const isOpen = !menu.classList.contains('hidden');
+      
+      if (isOpen) {
+        menu.classList.add('hidden');
+        chevron.classList.remove('rotate-180');
+      } else {
+        menu.classList.remove('hidden');
+        chevron.classList.add('rotate-180');
+      }
+    }
+
+    function selectGuestOption(val, text) {
+      document.getElementById('guestsCount').value = val;
+      document.getElementById('selectedGuestsText').innerText = text;
+      
+      document.querySelectorAll('.guest-check-icon').forEach(icon => icon.classList.add('hidden'));
+      const check = document.getElementById(`check-${val}`);
+      if (check) check.classList.remove('hidden');
+
+      document.getElementById('guestsDropdownMenu').classList.add('hidden');
+      document.getElementById('guestsChevron').classList.remove('rotate-180');
+    }
+
+    document.addEventListener('click', (e) => {
+      const container = document.getElementById('guestsDropdownContainer');
+      if (container && !container.contains(e.target)) {
+        const menu = document.getElementById('guestsDropdownMenu');
+        const chevron = document.getElementById('guestsChevron');
+        if (menu) menu.classList.add('hidden');
+        if (chevron) chevron.classList.remove('rotate-180');
+      }
+    });
+  </script>
+</body>
+</html>
